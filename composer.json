@@ -1,0 +1,33 @@
+{
+    "name": "kodeops/laravel-remd-landing",
+    "type": "library",
+    "description": "Laravel remd default landing page",
+    "keywords": ["kodeops", "laravel", "remd"],
+    "homepage": "https://github.com/kodeops/laravel-remd-landing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kodeops",
+            "email": "hello@kodeops.io",
+            "homepage": "https://kodeops.io",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "spatie/laravel-package-tools": "^1.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "kodeops\\LaravelRemdLanding\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kodeops\\LaravelRemdLanding\\LaravelRemdLandingProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
